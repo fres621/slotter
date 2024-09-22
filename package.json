@@ -1,14 +1,16 @@
 {
-  "private": true,
-  "scripts": {
-    "start": "tsc && tsc-alias && node build"
-  },
-  "dependencies": {
-    "@types/gif-encoder": "^0.7.4",
-    "bluebird": "^3.7.2",
-    "gif-encoder": "^0.7.2",
-    "gif-encoder-2": "^1.0.5",
-    "gm": "^1.25.0",
-    "sharp": "^0.33.5"
-  }
+    "private": true,
+    "scripts": {
+        "start": "tsc && tsc-alias && node build",
+        "css": "tsc && tsc-alias && node build/css.js"
+    },
+    "dependencies": {
+        "@types/gif-encoder": "^0.7.4",
+        "bluebird": "^3.7.2",
+        "gif-encoder": "^0.7.2",
+        "gif-encoder-2": "^1.0.5",
+        "gm": "^1.25.0",
+        "optional": "^0.1.4",
+        "sharp": "^0.33.5"
+    }
 }
