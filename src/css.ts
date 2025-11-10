@@ -12,7 +12,7 @@ let header = `
  * @source https://github.com/fres621/slotter/
 */
 `;
-let css = header.trim() + "\n.message_d5deea {";
+let css = header.trim() + "\n.message__5126c {";
 const results = 64;
 for (let i = 0; i <= 999; i++) {
     let number = i % results;

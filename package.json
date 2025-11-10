@@ -9,8 +9,12 @@
         "bluebird": "^3.7.2",
         "gif-encoder": "^0.7.2",
         "gif-encoder-2": "^1.0.5",
-        "gm": "^1.25.0",
+        "gm": "^1.25.1",
         "optional": "^0.1.4",
-        "sharp": "^0.33.5"
+        "sharp": "^0.34.5"
+    },
+    "devDependencies": {
+        "tsc-alias": "^1.8.16",
+        "typescript": "^5.9.3"
     }
 }
