@@ -7,12 +7,12 @@ let header = `
 /**
  * @name Slotter
  * @author .fres.
- * @version 1.0.1
+ * @version 1.1.0
  * @description Gamble using slot machine emoji
  * @source https://github.com/fres621/slotter/
 */
 `;
-let css = header.trim() + "\n.message__5126c {";
+let css = header.trim() + "\ndiv[class^="message__"] {";
 const results = 64;
 for (let i = 0; i <= 999; i++) {
     let number = i % results;
